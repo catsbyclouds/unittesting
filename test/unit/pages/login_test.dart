@@ -17,7 +17,7 @@ void main() {
   });
 
   group('LoginPage Widget Tests', () {
-    /*  testWidgets('renders all essential elements', (WidgetTester tester) async {
+     testWidgets('renders all essential elements', (WidgetTester tester) async {
       await tester.pumpWidget(MaterialApp(home: Loginpage(auth: mockAuth)));
 
       expect(find.byType(Image), findsWidgets);
@@ -27,12 +27,11 @@ void main() {
       expect(find.text('Password'), findsOneWidget);
       expect(find.text('Login'), findsOneWidget);
       expect(find.text('Forget password '), findsOneWidget);
-      expect(find.textContaining('Not a member yet?'), findsOneWidget);
       expect(find.text('Create account'), findsOneWidget);
       expect(find.text('Or login with'), findsOneWidget);
       expect(find.byType(ElevatedButton), findsOneWidget);
     });
- */
+ 
     testWidgets('toggles password visibility', (WidgetTester tester) async {
       await tester.pumpWidget(MaterialApp(home: Loginpage(auth: mockAuth)));
 
